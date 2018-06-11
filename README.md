@@ -1,20 +1,20 @@
 # Matrix-Calculator
-###Java matrix calculator made by Cory Crowley###
+### Java matrix calculator made by Cory Crowley
 
-##Methods:##
+## Methods:
 
-###Constructors:###
+### Constructors:
 * Constructor to create a matrix given m and n
 * Constructor to read a matrix from a user using terminal or popups 
 * Constructor to read a matrix from a .mat file. The file starts with the size of the matrix using two integers (m and n) separated by a comma. 
 
-###Getters###
+### Getters
 
 * int getN() : Getters methods for n.
 * int getM() : Getters methods for m.
 * double get(int i, int j) : A method to get the value stored in i and j entry of the matrix
 
-###Operations:###
+### Operations:
 
 * Matrix add(Matrix m) : Add this matrix to matrix m and return the result
 * Matrix subtract(Matrix m) : Subtract matrix m from  this matrix and return the result
@@ -26,7 +26,7 @@
 * boolean isSquare() : return true if the matrix is square
 * Matrix transpose() : return the transpose of the current matrix
 
-###Other###
+### Other
 
 * String toString(): to return a string representation of the matrix. 
 * void print(String filename): create a file and write the matrix in it. 
